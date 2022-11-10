@@ -1,0 +1,20 @@
+{
+  "name": "@olegkorn/eslint-config",
+  "version": "1.0.2",
+  "description": "",
+  "homepage": "https://github.com/jstoleg/eslint-config",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jstoleg/eslint-config"
+  },
+  "scripts": {},
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "eslint-config-airbnb": "^19.0.4"
+  }
+}
