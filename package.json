@@ -1,6 +1,6 @@
 {
   "name": "@olegkorn/eslint-config",
-  "version": "1.0.2",
+  "version": "1.0.6",
   "description": "",
   "homepage": "https://github.com/jstoleg/eslint-config",
   "main": "index.js",
@@ -15,6 +15,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "eslint-config-airbnb": "^19.0.4"
+    "@typescript-eslint/eslint-plugin": "^5.43.0",
+    "@typescript-eslint/parser": "^5.43.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-react": "^7.31.10",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-simple-import-sort": "^8.0.0"
   }
 }
