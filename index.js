@@ -18,6 +18,7 @@ module.exports = {
   extends: [
     'eslint:recommended',
     'plugin:@typescript-eslint/recommended',
+    'plugin:react-hooks/recommended',
     'airbnb',
   ],
   plugins: [
@@ -27,8 +28,9 @@ module.exports = {
     'simple-import-sort',
   ],
   rules: {
-    quotes: ['error', 'single'],
-    semi: ['error', 'never'],
+    'arrow-parens': [2, 'as-needed'],
+    'quotes': ['error', 'single'],
+    'semi': ['error', 'never'],
     'max-len': 0,
     'import/prefer-default-export': 0,
     'import/extensions': 0,
@@ -36,6 +38,9 @@ module.exports = {
     'jsx-quotes': ['error', 'prefer-single'],
     'react/jsx-filename-extension': [2, { extensions: ['.js', '.jsx', '.ts', '.tsx'] }],
     'react/function-component-definition': 0,
+    'react/require-default-props': 0,
+    'react/react-in-jsx-scope': 0,
+    'react/jsx-one-expression-per-line': 0,
     'simple-import-sort/imports': ['warn', {
       groups: [[
         // Side effect imports
@@ -56,5 +61,6 @@ module.exports = {
         '^.+\\.s?css$',
       ]],
     }],
+    '@typescript-eslint/no-non-null-assertion': 0,
   },
 }
