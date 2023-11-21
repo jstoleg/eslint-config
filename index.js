@@ -32,6 +32,7 @@ module.exports = {
     'quotes': ['error', 'single'],
     'semi': ['error', 'never'],
     'max-len': 0,
+    "no-multiple-empty-lines": ["error", { "max": 1, "maxBOF": 0, "maxEOF": 0 }],
     'import/prefer-default-export': 0,
     'import/extensions': 0,
     'import/no-unresolved': 0,
