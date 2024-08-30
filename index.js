@@ -25,6 +25,7 @@ module.exports = {
   plugins: [
     'react',
     '@typescript-eslint',
+    'prefix-types',
     'react-hooks',
     'simple-import-sort',
   ],
