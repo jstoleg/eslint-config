@@ -1,6 +1,6 @@
 {
   "name": "@olegkorn/eslint-config",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "",
   "homepage": "https://github.com/jstoleg/eslint-config",
   "main": "index.js",
@@ -11,7 +11,9 @@
     "type": "git",
     "url": "https://github.com/jstoleg/eslint-config"
   },
-  "scripts": {},
+  "scripts": {
+    "publish": "npm publish"
+  },
   "author": "",
   "license": "ISC",
   "dependencies": {
